@@ -1,20 +1,21 @@
 ### Información del Equipo
 - **Integrantes:**
-  - Nombre 1 - Rol 1
-  - Nombre 2 - Rol 2
-  - Nombre 3 - Rol 3
-  - Nombre 4 - Rol 4
+  - Vasco Urrutia - Rol 1
+  - Joaquín Agurto - Rol 2
+  - Ignacio Mora - Rol 3
   
-- **ODS Seleccionado:** [Número y nombre]
-- **Problema a resolver:** [Descripción breve]
+- **ODS Seleccionado:**
+ODS 7: Energía Asequible y No Contaminante
+- **Problema a resolver:**
+Ayudar a hogares no considerados dentro del subsidio eléctrico en Chile
 
 ### Descripción del Proyecto
 [Breve descripción de la solución IoT propuesta]
 
 ### Estado del Proyecto
-- **Versión actual:** v3.0
+- **Versión actual:** v1.0
 - **Última actualización:** [Fecha]
-- **Estado:** Prototipo final
+- **Estado:** Primer Prototipo
 
 ---
 
