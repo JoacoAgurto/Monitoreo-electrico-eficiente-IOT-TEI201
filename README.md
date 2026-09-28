@@ -1,20 +1,20 @@
 ### Información del Equipo
 - **Integrantes:**
-  - Vasco Urrutia - Rol 1
-  - Joaquín Agurto - Rol 2
-  - Ignacio Mora - Rol 3
+  - Vasco Urrutia - Encargado de hardwarwe y firmware
+  - Joaquín Agurto - Encargado de Documentación
+  - Ignacio Mora - Encargado de modelado 3D
   
 - **ODS Seleccionado:**
 ODS 7: Energía Asequible y No Contaminante
 - **Problema a resolver:**
-Ayudar a hogares no considerados dentro del subsidio eléctrico en Chile
+Ayudar a hogares no considerados dentro del subsidio eléctrico en Chile, regulando sus gastos a través de un monitoreo eléctrico
 
 ### Descripción del Proyecto
 [Breve descripción de la solución IoT propuesta]
 
 ### Estado del Proyecto
 - **Versión actual:** v1.0
-- **Última actualización:** [Fecha]
+- **Última actualización:** [28/09/2026]
 - **Estado:** Primer Prototipo
 
 ---
