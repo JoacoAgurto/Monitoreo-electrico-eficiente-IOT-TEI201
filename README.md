@@ -1,7 +1,7 @@
 ### Información del Equipo
 - **Integrantes:**
-  - Vasco Urrutia - Encargado de hardwarwe y firmware
-  - Joaquín Agurto - Encargado de Documentación
+  - Vasco Urrutia - Encargado de hardwarwe y software
+  - Joaquín Agurto - Encargado de Documentación y Recopilado de Datos
   - Ignacio Mora - Encargado de modelado 3D
   
 - **ODS Seleccionado:**
@@ -10,11 +10,11 @@ ODS 7: Energía Asequible y No Contaminante
 Ayudar a hogares no considerados dentro del subsidio eléctrico en Chile, regulando sus gastos a través de un monitoreo eléctrico
 
 ### Descripción del Proyecto
-[Breve descripción de la solución IoT propuesta]
+Un sistema de monitoreo eléctrico eficiente que lea la cantidad de energía utilizada para así transferir los datos a una página web / aplicación. Así, los usuarios podrán leer y entender fácilmente la cantidad de energía que están consumiendo la cantidad de gasto eléctrico para así tomar decisiones informadas para regular su consumo.
 
 ### Estado del Proyecto
 - **Versión actual:** v1.0
-- **Última actualización:** [28/09/2026]
+- **Última actualización:** [5/10/2026]
 - **Estado:** Primer Prototipo
 
 ---
