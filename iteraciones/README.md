@@ -23,9 +23,9 @@ Cada carpeta debe incluir:
 | Aspecto | v1 | v2 | v3 |
 |---------|----|----|----| 
 | **Fecha** | [19/10/26] | [fecha] | [fecha] |
-| **Sensores** | [Dos sensores de ADS1115, Micro sd y Arduino esp32 cp210] | [lista] | [lista] |
-| **Actuadores** | [lista] | [lista] | [lista] |
-| **Conectividad** | [tipo] | [tipo] | [tipo] |
+| **Sensores** | [ADS1115 / Arduino esp32 cp210] | [lista] | [lista] |
+| **Actuadores** | [] | [lista] | [lista] |
+| **Conectividad** | [local / WIFI] | [tipo] | [tipo] |
 | **Encapsulado** | Concepto visual | Prototipo | Finalizado |
 | **Testing** | Solo equipo | 2 usuarios | 5+ usuarios |
 | **Funcionalidad** | 95% | 80% | 100% |
