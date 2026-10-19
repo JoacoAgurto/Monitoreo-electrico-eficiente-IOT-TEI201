@@ -4,21 +4,6 @@
 
 Esta carpeta documenta la evolución del prototipo a través de las diferentes versiones desarrolladas durante el curso.
 
-**CRÍTICO:** Demostrar el proceso iterativo es un requisito para obtener puntaje completo en "Integración y Refinamiento" (2.5 puntos).
-
----
-
-## Estructura de Carpetas
-
-Cada iteración tiene su propia carpeta con documentación de esa versión:
-
-```
-iteraciones/
-├── iteracion_1/    # Concepto inicial - Prototipo alpha
-├── iteracion_2/    # Primera iteración - Avance #2
-└── iteracion_3/    # Versión final - Avance #3
-```
-
 ---
 
 ## Contenido de Cada Iteración
@@ -37,26 +22,26 @@ Cada carpeta debe incluir:
 
 | Aspecto | v1 | v2 | v3 |
 |---------|----|----|----| 
-| **Fecha** | [fecha] | [fecha] | [fecha] |
-| **Sensores** | [lista] | [lista] | [lista] |
+| **Fecha** | [19/10/26] | [fecha] | [fecha] |
+| **Sensores** | [Dos sensores de ADS1115, Micro sd y Arduino esp32 cp210] | [lista] | [lista] |
 | **Actuadores** | [lista] | [lista] | [lista] |
 | **Conectividad** | [tipo] | [tipo] | [tipo] |
-| **Encapsulado** | ❌ | Prototipo | Finalizado |
+| **Encapsulado** | Concepto visual | Prototipo | Finalizado |
 | **Testing** | Solo equipo | 2 usuarios | 5+ usuarios |
-| **Funcionalidad** | 60% | 80% | 100% |
+| **Funcionalidad** | 95% | 80% | 100% |
 
 ---
 
 ## Evolución del Diseño
 
 ### Versión 1 (Iteración 1) - Concepto Inicial
-**Fecha:** [XX/XX/2025]  
+**Fecha:** [19/10/2026]  
 **Estado:** Prototipo alpha - Prueba de concepto
 
 **Características:**
-- [Descripción breve]
-- Problemas principales identificados
-- Aprendizajes clave
+- El sistema es a base de conexiones de arduino / sensores montados en un protoboard, capaces de leer corriente eléctrica y mandar esos datos a una página web.
+- El sistema es muy dependiente por el hecho de que los cables de conexión al sistema sean separados y no juntos.
+- Para mejor usabilidad, es mejor implementar una nube para así ver el sistema de manera remota.
 
 ### Versión 2 (Iteración 2) - Primera Mejora
 **Fecha:** [XX/XX/2025]  
@@ -116,8 +101,9 @@ Cada carpeta debe incluir:
 ## Incorporación de Feedback
 
 ### Feedback del Avance #1 → Cambios en v2
-1. [Comentario profesor/ayudante]
-   - Acción tomada: [Descripción]
+1. [Comentario profesor/ayudante]:
+   - Utilizar un servidor global para garantizar un acceso al sistema de manera remota, facilitando su uso para el usuario en vez de estar en cercanía con el sistema montado en el protoboard. La importancia de esto para el usuario es que es capaz de saber la cantidad de energía que está consumiendo en su hogar cuando NO está en ella.
+   - Acción tomada: Usar Firebase
 
 ### Feedback del Avance #2 → Cambios en v3
 1. [Comentario profesor/ayudante]
