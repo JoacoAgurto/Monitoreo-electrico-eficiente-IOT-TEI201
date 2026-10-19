@@ -2,22 +2,22 @@
 
 ## Información General
 
-**Fecha:** [XX/XX/2025]  
+**Fecha:** [19/10/2026]  
 **Versión:** v1.0  
-**Estado:** Prototipo alpha - Prueba de concepto  
-**Avance asociado:** Planificación inicial / Avance #1
+**Estado:** Prototipo alpha y Prueba de concepto  
+**Avance asociado:** Avance #1 con prototipo accesible y manipulable
 
 ---
 
 ## Descripción
 
-Primera versión del prototipo, enfocada en validar la factibilidad técnica del concepto.
+Esta primera iteración contiene la primera versión del prototipo del sistema. Su enfoque es validar su funcionamiento y factibilidad técnica. El protoboard contiene todo el hardware necesario para recopilar datos de consumo de energía de manera local / remota, mediante conexión WIFI.
 
 **Objetivo de esta iteración:**
 - Probar conexión de sensores básicos
 - Validar comunicación con microcontrolador
 - Demostrar concepto de actuación
-- Circuito básico en protoboard
+- Circuito básico y soldado en protoboard
 
 ---
 
@@ -51,20 +51,14 @@ Incluir en esta carpeta:
 ## Resultados de Testing Inicial
 
 ### Funcionalidad Lograda
-✅ [Función 1]  
-✅ [Función 2]  
-❌ [Función 3 - no funcionó]
+✅ Leer corriente eléctrica 
+✅ Recopilar los datos y subirlos en la página web
+❌ No reconoce entre corriente real y ruido
 
 ### Problemas Identificados
 
 1. **Problema 1:**
-   - Descripción: [Detalles]
-   - Causa probable: [Análisis]
-   - Solución propuesta: [Plan]
-
-2. **Problema 2:**
-   - Descripción: [Detalles]
-   - Causa probable: [Análisis]
+El problema principal es que el sistema no funciona se está midiendo en cable junto, sólo cuando es cables separados. Esto ocurre ya que al medir por cable junto, ambos cable anulan las ondas de electricidad medibles, y el sistema no leerá nada.
    - Solución propuesta: [Plan]
 
 ---
@@ -72,12 +66,10 @@ Incluir en esta carpeta:
 ## Aprendizajes
 
 ### Técnicos
-- [Aprendizaje 1]
-- [Aprendizaje 2]
+La tarjeta de memoria dejaría de ser útil si cambiamos el servidor de local, a global. Esto permite que los datos recopilados se puedan ver de forma remota y no sea necesario revisar la tarjeta cuando todo estará guardado en una nube.
 
 ### De Diseño
-- [Aprendizaje 1]
-- [Aprendizaje 2]
+- Para los broches plásticos en el modelaje de encapsulado, se aprendió que es mucho mejor utilizar broche estándar de plástico inyectado, puesto que la técnica anterior será muy sensible (siendo impreso por 3D) y podrían romperse.
 
 ---
 
@@ -86,16 +78,13 @@ Incluir en esta carpeta:
 ### Mejoras Planificadas
 
 **Hardware:**
-- [ ] [Mejora 1]
-- [ ] [Mejora 2]
+- [ ] 
 
 **Software:**
-- [ ] [Mejora 1]
-- [ ] [Mejora 2]
+- [ ] Utilizar nube como repositorio de datos (Firebase)
 
 **Diseño:**
-- [ ] Iniciar diseño de encapsulado
-- [ ] Mejorar ruteo de cables
+- [ ] Iniciar diseño de encapsulado para tenerlo en formato físico
 
 ---
 
