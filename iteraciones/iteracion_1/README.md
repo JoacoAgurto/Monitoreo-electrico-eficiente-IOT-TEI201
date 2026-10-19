@@ -24,16 +24,15 @@ Esta primera iteración contiene la primera versión del prototipo del sistema. 
 ## Componentes Utilizados
 
 ### Hardware
-- Microcontrolador: [Modelo]
+- Microcontrolador: Micro SD
 - Sensores:
-  - [Sensor 1]
-  - [Sensor 2]
+  - ADS1115
 - Actuadores:
   - [Actuador 1]
 - Otros: [Lista]
 
 ### Software
-- IDE: Arduino IDE
+- IDE: Arduino esp32 cp210
 - Librerías: [Lista]
 - Versión código: v1.0
 
